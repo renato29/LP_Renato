@@ -6,15 +6,47 @@
     <title>Engineer Renato Merino Szklarski</title>
 </head>
 <body>
-    <h2>About Me</h2> <span>
-        <img src="profile_img.jpg" width="300" title="profile_img">
-
-    <h1>Born in Rio de Janeiro Brazil, 1989.
-            from a Brazilian mother and Peruvian father, have a sister called Celina.
-           Now me and Celina lives in Israel to persue a new future for all.
-           Now with hobbies to photograph and cook japanese food for friends and family.
-    </h1>
-    </span>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Renato Merino Szklarski</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header> 
+        <div class="content">
+            <div class="box">
+                <img src="profile_img.jpg" width="180" title="profile_img" class="box-img">
+            
+                <h2>About Me <p>
+                    
+                     Petroleum Engineer, 31yo. <h2>I have  create this site to be my main project, to test everything I´ve been learning about programing and develop news tools.
+                     Beside programing I have hobbies like photgraph and cooking.
+                    </h2>
+                    </p></h2> <span>
+                    </div>
+          </span>
+        </div>
+            <ul class="sci">
+            <li><a href="https://www.facebook.com/renatoszk"><img src="facebook.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/renatomerino/"><img src="linkedin (1).png"></a></li>
+            <li><a href="https://twitter.com/cariocamerino"><img src="twitter.png"></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div> 
+    <script type="text/javascript">
+    function toggle() {
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+        
+    }
+    </script>
 
 
     
