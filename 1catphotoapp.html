@@ -15,19 +15,24 @@
             <div id="toggle" onclick="toggle()"></div>
         </header> 
         <div class="content">
-            <h2> Project learned in FreeCodeCamp since July 2020</h2>
+            <h2>CatPhotoApp - Project learned in FreeCodeCamp July 2020</h2>
     <main>
         <main>
-            <p>Click here ask a new Project <a href="#">Message me</a>.</p>
-            
-                    
-            <p>Learning Projects:</p>
+            <p>Click here to <a href="projects.html">return</a>.</p>
+          
+            <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+          
+            <p>Things cats love:</p>
+            <ul>
+              <li>cat nip</li>
+              <li>laser pointers</li>
+              <li>lasagna</li>
+            </ul>
+            <p>Top 3 things cats hate:</p>
             <ol>
-              <a href="1catphotoapp.html">1.CatPhotoapp</a><li>CatPhotoapp</li>
-              <li>Projeto2</li>
-              <li>Projeto3</li>
-              <li>Projeto4</li>
-              <li>Projeto5</li>
+              <li>flea treatment</li>
+              <li>thunder</li>
+              <li>other cats</li>
             </ol>
             <form action="/submit-cat-photo">
               <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
@@ -35,11 +40,11 @@
               <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving"> Loving</label>
               <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
               <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
-              
+              <input type="text" placeholder="cat photo URL" required>
+              <button type="submit">Submit</button>
             </form>
           </main>
-          <input type="text" placeholder="Type a Project Number" required>
-              <button type="submit"> GO </button>
+          
           </span>
         </div>
             <ul class="sci">
@@ -61,7 +66,8 @@
         var sec = document.getElementById('sec');
         var nav = document.getElementById('navigation');
         sec.classList.toggle('active');
-        nav.classList.toggle('active'); 
+        nav.classList.toggle('active');
+        
     }
     </script>
 

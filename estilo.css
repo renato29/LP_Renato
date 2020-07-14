@@ -73,7 +73,7 @@ header #toggle:after
     width: 100%;
     min-height: 100vh;
     padding: 100px;
-    background: url(orbit.jpg);
+    background: url(projects_wall.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -124,22 +124,26 @@ header #toggle:after
 {
     max-width: 600px;
     color: #fff
+    
 }
 .content h2
 {
     color: #fff;
     font-size: 2.5em;
+    background-color: rgb(59, 112, 136);
+    
 }
 .content h2 span
 {
-    color: #40c3ff;
-    font-size: 1.2em;
+    color: #fff;
+    font-size: 1.5em;
 }
 .content p
 {
     font-size: 1.2em;
     color: #fff;
-    font-weight: 300;
+    font-weight: 500;
+    background-color: rgb(59, 112, 136);
 }
 content a
 {
@@ -193,7 +197,7 @@ content a
           }
     .banner
             {
-              padding: 100px 50px 150px;
+              padding: 100px 50px 120px;
             }
     .banner h2
     { 
